@@ -8,6 +8,7 @@ const Table = (props) => {
     <table className="table">
       <TableHeader columns={columns} sortColumn={sortColumn} onSort={onSort} />
       <TableBody data={data} columns={columns} />
+      <div>Hello</div>
     </table>
   );
 };
